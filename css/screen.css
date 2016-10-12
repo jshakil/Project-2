@@ -9,22 +9,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /*
-  Setting type to a minor third modular scale
-  http://www.modularscale.com/?18&px&1.2&web&text
+  Setting type to a major second modular scale
+  http://www.modularscale.com/?16&&1.125&web&text
 */
 
 
 html {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.125em; /* 18px */
-  line-height: 1.222em; /* 22px = 1 gridline*/
-  background-color: #EFE5BE;
+  font-size: 1.1875em; /* 19px */
+  line-height: 1.210em; /* 23px = 1 gridline*/
+  background-color: #7acfcd;
   color: #222;
 }
 
-h1 {
-  font-size: 1.728em; /* 31.104px */
-  line-height: 1.415em; /* 44px @ 31.104px em */
+h1{
+  font-size: 1.944em; /* 35px */
+  line-height: 1.342; /* 47 @ 35px em */
+  text-align: center;
 }
 
 p,
@@ -34,10 +35,6 @@ ul {
 
 li {
   padding-bottom: 0.611em; /* 11px = half gridline*/
-}
-
-li:last-child {
-  padding-bottom: 0;
 }
 
 /* ===== LAYOUT STYLES ===== */
