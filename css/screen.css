@@ -16,25 +16,39 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.1875em; /* 19px */
-  line-height: 1.210em; /* 23px = 1 gridline*/
+  font-size: 1.18em; /* 19px */
+  line-height: 1.21em; /* 23px = 1 gridline*/
   background-color: #7acfcd;
-  color: #222;
+  color: #e2e8e0;
 }
 
-h1{
+h1 {
   font-size: 1.944em; /* 35px */
   line-height: 1.342; /* 47 @ 35px em */
   text-align: center;
 }
 
+h4 {
+  font-size: 1.375em; /* 22px */
+  line-height: 1.32em; /* 33 @ 22px em */
+}
+
+.mission-statement {
+  padding-top: 1em;
+  text-align: center;
+}
+
 p,
 ul {
-  padding-bottom: 1.222em; /* 22px */
+  padding-bottom: 1.21em; /* 23px */
 }
 
 li {
   padding-bottom: 0.611em; /* 11px = half gridline*/
+}
+
+.self-portrait {
+  border-radius: 50%;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -47,10 +61,6 @@ li {
 
 .content ul {
   list-style-type: disc;
-}
-#secondary {
-  color: #EFE5BE;
-  background-color: #222;
 }
 /* ===== STATE STYLES ===== */
 
