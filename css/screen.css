@@ -25,7 +25,7 @@ html {
 h1 {
   font-size: 1.944em; /* 35px */
   line-height: 1.342; /* 47 @ 35px em */
-  padding-bottom: 1.25em; /* 20px */ 
+  padding-bottom: 0.8125em; /* 13px */ 
   text-align: center;
 }
 
@@ -52,12 +52,39 @@ li {
 
 
 /* ===== LAYOUT STYLES ===== */
+
+#copyright {
+    font-size: 0.625em;
+    text-align: center;
+    padding-bottom: 0em;
+}
+
+#rights {
+    font-size: 0.625em;
+    text-align: center;
+}
+
+.navigation-menu {
+    text-align: center;
+    font-size: 0.8125em;
+    padding-bottom: 1.25em;
+    
+}
+#self-portrait-caption {
+    font-size: 0.625em; /* 10px */
+    font-style: italic;
+    text-align: center;
+}
+
 .circular-picture {
   position: relative;
   width: 100px;
   height: 100px;
   overflow: hidden;
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .circular-picture img{
