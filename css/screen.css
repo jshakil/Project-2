@@ -47,9 +47,7 @@ li {
   padding-bottom: 0.611em; /* 11px = half gridline*/
 }
 
-.self-portrait {
-  border-radius: 50%;
-}
+
 
 /* ===== LAYOUT STYLES ===== */
 
@@ -57,8 +55,19 @@ li {
   padding: 1.222em 0.916em; /* 16.5px */
 }
 
-/* ===== MODULAR STYLES ===== */
+.circular-picture {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
 
+.circular-picture img{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
 .content ul {
   list-style-type: disc;
 }
