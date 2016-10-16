@@ -25,6 +25,7 @@ html {
 h1 {
   font-size: 1.944em; /* 35px */
   line-height: 1.342; /* 47 @ 35px em */
+  padding-bottom: 1.25em; /* 20px */ 
   text-align: center;
 }
 
@@ -41,6 +42,7 @@ h4 {
 p,
 ul {
   padding-bottom: 1.21em; /* 23px */
+  padding-left: 0.625em;  /* 10px */      
 }
 
 li {
@@ -50,11 +52,6 @@ li {
 
 
 /* ===== LAYOUT STYLES ===== */
-
-#page {
-  padding: 1.222em 0.916em; /* 16.5px */
-}
-
 .circular-picture {
   position: relative;
   width: 100px;
