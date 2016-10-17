@@ -27,6 +27,7 @@ h1 {
   line-height: 1.342; /* 47 @ 35px em */
   padding-bottom: 0.8125em; /* 13px */ 
   text-align: center;
+    color: #2e6977;
 }
 
 h4 {
@@ -34,15 +35,11 @@ h4 {
   line-height: 1.32em; /* 33 @ 22px em */
 }
 
-.mission-statement {
-  padding-top: 1em;
-  text-align: center;
-}
-
 p,
 ul {
   padding-bottom: 1.21em; /* 23px */
-  padding-left: 0.625em;  /* 10px */      
+  padding-left: 0.625em;  /* 10px */ 
+  padding-right: 1.21em;
 }
 
 li {
@@ -53,23 +50,79 @@ li {
 
 /* ===== LAYOUT STYLES ===== */
 
+.design {
+  height: auto;
+  margin: auto;
+  padding-top: .9375em;
+}
+
+.tech {
+  height: auto;
+  margin: auto;
+}
+
+.xbox {
+  height: auto;
+  margin: auto;
+}
+
+.coding {
+  height: auto;
+  margin: auto;
+  padding-top: .9375em;
+}
+
+.jersey {
+  height: auto;
+  margin: auto;
+}
+
+.my-list {
+    padding: 0.625em;
+    background-color: #564787;
+    border-radius: 1.25em;
+}
+
+
+.intro {
+    color: #564787;
+}
+
 #copyright {
     font-size: 0.625em;
     text-align: center;
     padding-bottom: 0em;
+    color: #2e6977;
 }
 
 #rights {
     font-size: 0.625em;
     text-align: center;
+    color: #2e6977;
 }
 
 .navigation-menu {
     text-align: center;
     font-size: 0.8125em;
-    padding-bottom: 1.25em;
-    
+    padding-top: 1.25em;
+    padding-bottom: 0.625em;
 }
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: #e2e8e0;
+    padding-top: .0625em;
+    padding-bottom: .125em;
+    padding-left: .1875em;
+    padding-right: .1875em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
 #self-portrait-caption {
     font-size: 0.625em; /* 10px */
     font-style: italic;
@@ -78,8 +131,8 @@ li {
 
 .circular-picture {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 6.25em;
+  height: 6.25em;
   overflow: hidden;
   border-radius: 50%;
   display: block;
@@ -95,6 +148,12 @@ li {
 .content ul {
   list-style-type: disc;
 }
+
+.mission-statement {
+  padding-top: 1em;
+  text-align: center;
+}
+
 /* ===== STATE STYLES ===== */
 
 /* 775 @ 16px/em */
