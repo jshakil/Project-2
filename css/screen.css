@@ -15,7 +15,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.18em; /* 19px */
   line-height: 1.21em; /* 23px = 1 gridline*/
   background-color: #7acfcd;
@@ -25,9 +25,10 @@ html {
 h1 {
   font-size: 1.944em; /* 35px */
   line-height: 1.342; /* 47 @ 35px em */
-  padding-bottom: 0.8125em; /* 13px */ 
+  padding-bottom: 0.8125em; /* 13px */
+ 
   text-align: center;
-    color: #2e6977;
+  color: #2e6977;
 }
 
 h4 {
@@ -38,7 +39,8 @@ h4 {
 p,
 ul {
   padding-bottom: 1.21em; /* 23px */
-  padding-left: 0.625em;  /* 10px */ 
+  padding-left: 0.625em;  /* 10px */
+  
   padding-right: 1.21em;
 }
 
@@ -46,6 +48,13 @@ li {
   padding-bottom: 0.611em; /* 11px = half gridline*/
 }
 
+resume {
+    font-family: 'Montserrat', sans-serif;
+}
+
+widn {
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 /* ===== LAYOUT STYLES ===== */
@@ -53,7 +62,7 @@ li {
 .design {
   height: auto;
   margin: auto;
-  padding-top: .9375em;
+  padding-top: 0.9375em;
 }
 
 .tech {
@@ -69,7 +78,7 @@ li {
 .coding {
   height: auto;
   margin: auto;
-  padding-top: .9375em;
+  padding-top: 0.9375em;
 }
 
 .jersey {
@@ -78,55 +87,56 @@ li {
 }
 
 .my-list {
-    padding: 0.625em;
-    background-color: #564787;
-    border-radius: 1.25em;
+  padding: 0.625em;
+  background-color: #564787;
+  border-radius: 1.25em;
 }
 
-
 .intro {
-    color: #564787;
+  color: #564787;
 }
 
 #copyright {
-    font-size: 0.625em;
-    text-align: center;
-    padding-bottom: 0em;
-    color: #2e6977;
+  font-size: 0.625em;
+  text-align: center;
+  color: #2e6977;
 }
 
 #rights {
-    font-size: 0.625em;
-    text-align: center;
-    color: #2e6977;
+  font-size: 0.625em;
+  text-align: center;
+  color: #2e6977;
 }
 
 .navigation-menu {
-    text-align: center;
-    font-size: 0.8125em;
-    padding-top: 1.25em;
-    padding-bottom: 0.625em;
+  text-align: center;
+  font-size: 0.8125em;
+  padding-top: 1.25em;
+  padding-bottom: 0.625em;
 }
 
-a:link, a:visited {
-    background-color: #f44336;
-    color: #e2e8e0;
-    padding-top: .0625em;
-    padding-bottom: .125em;
-    padding-left: .1875em;
-    padding-right: .1875em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-flex;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 10px;
+a.home-nav, 
+a.resume-nav,
+a.widn-nav,
+a.e-mail {
+  background-color: #f44336;
+  color: #e2e8e0;
+  padding-top: 0.0625em;
+  padding-bottom: 0.125em;
+  padding-left: 0.1875em;
+  padding-right: 0.1875em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  border-style: solid;
+  border-width: 0.1875em;
+  border-radius: 0.625em;
 }
 
 #self-portrait-caption {
-    font-size: 0.625em; /* 10px */
-    font-style: italic;
-    text-align: center;
+  font-size: 0.625em; /* 10px */
+  font-style: italic;
+  text-align: center;
 }
 
 .circular-picture {
@@ -140,7 +150,7 @@ a:link, a:visited {
   margin-right: auto;
 }
 
-.circular-picture img{
+.circular-picture img {
   width: 100%;
   height: auto;
   margin: auto;
@@ -152,6 +162,87 @@ a:link, a:visited {
 .mission-statement {
   padding-top: 1em;
   text-align: center;
+  color: #2e6977;
+}
+
+.contact-header {
+    text-align: center;
+    padding-bottom: 0.63em;;
+    padding: 0.625em;
+    background-color: #564787;
+    border-radius: 1.25em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.education-header {
+    text-align: center;
+    padding-bottom: 0.63em;
+    padding-top: 0.63em;
+    color: #2e6977;
+}
+
+.languages-header {
+    text-align: center;
+    padding-bottom: 0.63em;
+    padding: 0.625em;
+    background-color: #564787;
+    border-radius: 1.25em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+}
+
+.hands-on-header {
+    text-align: center;
+    padding-bottom: 0.63em;
+    padding-top: 0.63em;
+    color: #2e6977;
+    
+}
+
+.software-header {
+    text-align: center;
+    padding-bottom: 0.63em;
+    padding: 0.625em;
+    background-color: #564787;
+    border-radius: 1.25em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+}
+
+.business-header {
+    text-align: center;
+    padding-bottom: 0.63em;
+    padding-top: 0.63em;
+    color: #2e6977;
+}
+
+.contact-info {
+  padding: 0.625em;
+  background-color: #564787;
+  border-radius: 1.25em;
+  border-top-left-radius: 0em;
+  border-top-right-radius: 0em;
+}
+
+.languages {
+  padding: 0.625em;
+  background-color: #564787;
+  border-radius: 1.25em;
+  border-top-left-radius: 0em;
+  border-top-right-radius: 0em;
+}
+
+.software-knowledge {
+  padding: 0.625em;
+  background-color: #564787;
+  border-radius: 1.25em;
+  border-top-left-radius: 0em;
+  border-top-right-radius: 0em;
 }
 
 /* ===== STATE STYLES ===== */
