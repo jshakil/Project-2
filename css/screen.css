@@ -23,6 +23,7 @@ html {
 }
 
 h1 {
+  padding-top: 0.63em;
   font-size: 1.944em; /* 35px */
   line-height: 1.342; /* 47 @ 35px em */
   padding-bottom: 0.8125em; /* 13px */
@@ -40,7 +41,6 @@ p,
 ul {
   padding-bottom: 1.21em; /* 23px */
   padding-left: 0.625em;  /* 10px */
-  
   padding-right: 1.21em;
 }
 
@@ -49,12 +49,14 @@ li {
 }
 
 resume {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 widn {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 1.21em;   
 }
+
 
 
 /* ===== LAYOUT STYLES ===== */
@@ -245,6 +247,34 @@ a.e-mail {
   border-top-right-radius: 0em;
 }
 
+.gist {
+  padding-left: 1.21em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  float: right;
+}
+
+.code {
+  display: inline;
+  padding-right: 2em;
+  padding-left: 1em
+}
+
+.iPhone {
+  display:inline;
+  padding-right: 2em;
+}
+
+.iPad {
+  display:inline
+}
+
+.Mac {
+  display: inline; 
+  padding-top: 1em;
+  padding-left: 6em;
+}
+
 /* ===== STATE STYLES ===== */
 
 /* 775 @ 16px/em */
@@ -253,6 +283,7 @@ a.e-mail {
     margin: 0 25.42857143% 0 14.28571429%;
   }
 }
+
 @media screen and (min-width: 990em) {
   #page {
     margin: 0;
@@ -271,5 +302,15 @@ a.e-mail {
   footer {
     clear: both;
   }
+    
+}
+
+@media screen and (min-width: 349px) {
+
+ .Mac {
+    display: inline;
+    padding-left: 2em;    
+  }
+    
 }
 
