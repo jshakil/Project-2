@@ -50,10 +50,12 @@ li {
 
 resume {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.18em; /* 19px */
 }
 
 widn {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.18em; /* 19px */
   padding-right: 1.21em;   
 }
 
@@ -251,7 +253,13 @@ a.e-mail {
   padding-left: 1.21em;
   padding-top: 1em;
   padding-bottom: 1em;
-  float: right;
+  padding-right: 1.21em;
+  background-color: #564787;
+  border-radius: 1.25em;
+}
+
+.sentence {
+   padding-top: 1em;   
 }
 
 .code {
@@ -274,6 +282,13 @@ a.e-mail {
   padding-top: 1em;
   padding-left: 6em;
 }
+
+.ending {
+  padding-top: 1em;
+  background-color: #564787; 
+  border-radius: 1.25em;
+}
+
 
 /* ===== STATE STYLES ===== */
 
