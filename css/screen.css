@@ -23,10 +23,10 @@ html {
 }
 
 h1 {
-  padding-top: 0.63em;
+  padding-top: 0.94em; /* 15 px */
   font-size: 1.944em; /* 35px */
-  line-height: 1.342; /* 47 @ 35px em */
-  padding-bottom: 0.8125em; /* 13px */
+  line-height: 1.31; /* 46 @ 35px em */
+  padding-bottom: 0.94em; /* 15px */
   text-align: center;
   color: #2e6977;
 }
@@ -120,8 +120,7 @@ widn {
 
 a.home-nav,
 a.resume-nav,
-a.widn-nav,
-a.e-mail {
+a.widn-nav {
   background-color: #f44336;
   color: #e2e8e0;
   padding-top: 0.0625em;
@@ -285,6 +284,21 @@ a.e-mail {
   padding-top: 1em;
   background-color: #564787;
   border-radius: 1.25em;
+}
+
+#email-contact {
+  vertical-align: middle;
+  padding-right: .5em;   
+}
+
+#phone-contact {
+  vertical-align: middle;
+  padding-right: .5em;   
+}
+
+#location-contact {
+  vertical-align: middle;
+  padding-right: .5em;   
 }
 
 
