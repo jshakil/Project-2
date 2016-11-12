@@ -50,11 +50,13 @@ li {
 resume {
   font-family: "Montserrat", sans-serif;
   font-size: 1.18em; /* 19px */
+  line-height: 1.21em; /* 23px = 1 gridline*/
 }
 
 widn {
   font-family: "Montserrat", sans-serif;
   font-size: 1.18em; /* 19px */
+  line-height: 1.21em; /* 23px = 1 gridline*/
   padding-right: 1.21em;
 }
 
